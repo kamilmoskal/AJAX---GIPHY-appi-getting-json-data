@@ -7,7 +7,7 @@ let search="trending";
 function takeData(){
     $.ajax({
         dataType: "json",
-        url: "http://api.giphy.com/v1/gifs/search?q="+ search +"&api_key=JdUCIIQEArt8y2Y3lKtclHwSKv54YItg&limit="+ gifsNumber,
+        url: "https://api.giphy.com/v1/gifs/search?q="+ search +"&api_key=JdUCIIQEArt8y2Y3lKtclHwSKv54YItg&limit="+ gifsNumber,
         data: "GET"/* ,
         success: function(data){
             let grabdata = data.data
